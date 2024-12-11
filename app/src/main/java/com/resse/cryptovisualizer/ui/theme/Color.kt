@@ -1,8 +1,22 @@
 package com.resse.cryptovisualizer.ui.theme
 
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 
 val greenBackground = Color(0xFF119B00)
+val gradientBrushGreen = Brush.linearGradient(
+    colors = listOf(
+        Color(0xFF4CAF50), // Shade 1: Light green
+        Color(0xFF087F23)  // Shade 2: Dark green
+    )
+)
+
+val gradientBrushRed = Brush.linearGradient(
+    colors = listOf(
+        Color(0xFFFF5722), // Light red (orange-ish)
+        Color(0xFFD50000)  // Deep red
+    )
+)
 
 val primaryLight = Color(0xFF38693C)
 val onPrimaryLight = Color(0xFFFFFFFF)
