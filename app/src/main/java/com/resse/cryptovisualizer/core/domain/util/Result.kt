@@ -1,4 +1,4 @@
-package com.resse.cryptovisualizer.util
+package com.resse.cryptovisualizer.core.domain.util
 
 typealias DomainError = Error
 
@@ -27,6 +27,7 @@ inline fun <T, E: Error> Result<T, E>.onSuccess(action: (T) -> Unit): Result<T, 
         }
     }
 }
+
 inline fun <T, E: Error> Result<T, E>.onError(action: (E) -> Unit): Result<T, E> {
     return when(this) {
         is Result.Error -> {
