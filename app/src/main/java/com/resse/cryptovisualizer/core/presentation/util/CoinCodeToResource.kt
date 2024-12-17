@@ -1,4 +1,4 @@
-package com.resse.cryptovisualizer.util
+package com.resse.cryptovisualizer.core.presentation.util
 
 import com.resse.cryptovisualizer.R
 

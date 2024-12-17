@@ -2,7 +2,7 @@ package com.resse.cryptovisualizer.crypto.presentation.models
 
 import androidx.annotation.DrawableRes
 import com.resse.cryptovisualizer.crypto.domain.Coin
-import com.resse.cryptovisualizer.util.getDrawableIdForCoin
+import com.resse.cryptovisualizer.core.presentation.util.getDrawableIdForCoin
 import java.text.NumberFormat
 import java.util.Locale
 
