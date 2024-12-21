@@ -1,4 +1,4 @@
-package com.resse.cryptovisualizer.core.data
+package com.resse.cryptovisualizer.core.data.networking
 
 import com.resse.cryptovisualizer.BuildConfig
 
