@@ -35,7 +35,7 @@ fun PriceChange(
     val contentColor = if(change.value < 0.0) {
         MaterialTheme.colorScheme.onErrorContainer
     } else {
-        Color.Green
+        Color.White
     }
     val backgroundColor = if(change.value < 0.0) {
         gradientBrushRed
