@@ -6,6 +6,7 @@ CryptoVisualizer is an Android app built with Kotlin, and Jetpack Compose. It di
 
 - Fetches and displays real-time cryptocurrency prices using Ktor for API calls and Coroutines for asynchronous operations.
 - Interactive Chart Visualization.
+- Dark Mode Support: Material 3 dark mode theme support.
 
 ## Tech Stack
 
