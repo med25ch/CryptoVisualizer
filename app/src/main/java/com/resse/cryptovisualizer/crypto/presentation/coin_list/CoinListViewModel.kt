@@ -91,7 +91,7 @@ class CoinListViewModel(
             coinDataSource
                 .getCoins()
                 .onSuccess { coins ->
-                    _state.update {
+                    _state.update { it ->
                         it.copy(
                             isLoading = false,
                             coins = coins.map { it.toCoinUi() }
