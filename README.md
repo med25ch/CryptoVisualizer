@@ -2,6 +2,8 @@
 
 CryptoVisualizer is an Android app built with Kotlin, and Jetpack Compose. It displays cryptocurrency prices through interactive charts, offering a modern and intuitive user experience.
 
+<img src="https://github.com/med25ch/CryptoVisualizer/blob/master/screenshots/MockUp.png">
+
 ## Features
 
 - Fetches and displays real-time cryptocurrency prices using Ktor for API calls and Coroutines for asynchronous operations.
@@ -26,8 +28,3 @@ Data & Backend :
 
 Dependency Injection
 - Koin: For managing dependency injection efficiently across the app.
-
-## Screenshots
-
-<img src="https://github.com/med25ch/CryptoVisualizer/blob/master/screenshots/Screenshot_1.png" width="30%"></img> <img src="https://github.com/med25ch/CryptoVisualizer/blob/master/screenshots/Screenshot_2.png" width="30%"></img>
-<img src="https://github.com/med25ch/CryptoVisualizer/blob/master/screenshots/Screenshot_3.png" width="30%"></img> <img src="https://github.com/med25ch/CryptoVisualizer/blob/master/screenshots/Screenshot_4.png" width="30%"></img>
